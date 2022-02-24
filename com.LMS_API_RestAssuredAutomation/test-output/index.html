@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-lmsApi" class="navigator-link">
+              <span class="suite-name border-failed">lmsApi</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-lmsApi" class="navigator-link ">
+                    <span>C:\Users\shanm\OneDrive\Documents\Div Job\Numpy Ninja\Eclipse workspace\com.LMS_API_RestAssuredAutomation\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-lmsApi" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-lmsApi" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-lmsApi" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-lmsApi" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-lmsApi" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-lmsApi" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">17 methods, 1 failed,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-lmsApi" class="hide-methods failed suite-lmsApi"> (hide)</a> <!-- hide-methods failed suite-lmsApi -->
+                      <a href="#" panel-name="suite-lmsApi" class="show-methods failed suite-lmsApi"> (show)</a> <!-- show-methods failed suite-lmsApi -->
+                    </span>
+                    <div class="method-list-content failed suite-lmsApi">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-lmsApi" title="lms_API_Test_CRUDmethods.PUTRequest" class="method navigator-link" hash-for-method="updateProgram(5, SDET, api, TRUE, 400)">updateProgram(5, SDET, api, TRUE, 400)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-lmsApi -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-lmsApi" class="hide-methods passed suite-lmsApi"> (hide)</a> <!-- hide-methods passed suite-lmsApi -->
+                      <a href="#" panel-name="suite-lmsApi" class="show-methods passed suite-lmsApi"> (show)</a> <!-- show-methods passed suite-lmsApi -->
+                    </span>
+                    <div class="method-list-content passed suite-lmsApi">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-lmsApi" title="lms_API_Test_CRUDmethods.DELETERequest" class="method navigator-link" hash-for-method="DeleteId(, 405)">DeleteId(, 405)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-lmsApi" title="lms_API_Test_CRUDmethods.DELETERequest" class="method navigator-link" hash-for-method="DeleteId(6, 500)">DeleteId(6, 500)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-lmsApi" title="lms_API_Test_CRUDmethods.DELETERequest" class="method navigator-link" hash-for-method="DeleteId(6898, 200)">DeleteId(6898, 200)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-lmsApi" title="lms_API_Test_CRUDmethods.GETRequest" class="method navigator-link" hash-for-method="Get_allPrograms">Get_allPrograms</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-lmsApi" title="lms_API_Test_CRUDmethods.GETRequest" class="method navigator-link" hash-for-method="Get_programid(12AB, 400)">Get_programid(12AB, 400)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-lmsApi" title="lms_API_Test_CRUDmethods.GETRequest" class="method navigator-link" hash-for-method="Get_programid(null, 400)">Get_programid(null, 400)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-lmsApi" title="lms_API_Test_CRUDmethods.GETRequest" class="method navigator-link" hash-for-method="Get_programid(5379, 200)">Get_programid(5379, 200)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-lmsApi" title="lms_API_Test_CRUDmethods.GETRequest" class="method navigator-link" hash-for-method="Get_programid(2, 200)">Get_programid(2, 200)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-lmsApi" title="lms_API_Test_CRUDmethods.GETRequest" class="method navigator-link" hash-for-method="Get_programid(0, 200)">Get_programid(0, 200)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-lmsApi" title="lms_API_Test_CRUDmethods.POSTRequest" class="method navigator-link" hash-for-method="createProgram(, SDET26, Automation testing, true, 200)">createProgram(, SDET26, Automation testing, true, 200)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-lmsApi" title="lms_API_Test_CRUDmethods.POSTRequest" class="method navigator-link" hash-for-method="createProgram(NULL, DS, data science, false, 400)">createProgram(NULL, DS, data science, false, 400)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-lmsApi" title="lms_API_Test_CRUDmethods.POSTRequest" class="method navigator-link" hash-for-method="createProgram(0, DS, data science, false, 200)">createProgram(0, DS, data science, false, 200)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-lmsApi" title="lms_API_Test_CRUDmethods.POSTRequest" class="method navigator-link" hash-for-method="createProgram(7879798989080870.00, SDET, Test, true, 400)">createProgram(7879798989080870.00, SDET, Test, true, 400)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-lmsApi" title="lms_API_Test_CRUDmethods.PUTRequest" class="method navigator-link" hash-for-method="updateProgram(6211, SDET26, management, TRUE, 200)">updateProgram(6211, SDET26, management, TRUE, 200)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-lmsApi" title="lms_API_Test_CRUDmethods.PUTRequest" class="method navigator-link" hash-for-method="updateProgram(5118, Scrum master, management, 123%, 400)">updateProgram(5118, Scrum master, management, 123%, 400)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-lmsApi" title="lms_API_Test_CRUDmethods.PUTRequest" class="method navigator-link" hash-for-method="updateProgram(7ghh, java, basics, FALSE, 400)">updateProgram(7ghh, java, basics, FALSE, 400)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-lmsApi -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-lmsApi" class="panel lmsApi">
+          <div class="suite-lmsApi-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">lms_API_Test_CRUDmethods.PUTRequest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateProgram(5, SDET, api, TRUE, 400)">
+                  </a> <!-- updateProgram(5, SDET, api, TRUE, 400) -->
+                  <span class="method-name">updateProgram</span>
+                  <span class="parameters">(5, SDET, api, TRUE, 400)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [400] but found [200]
+	at lms_API_Test_CRUDmethods.PUTRequest.updateProgram(PUTRequest.java:40)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-lmsApi-class-failed -->
+          <div class="suite-lmsApi-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">lms_API_Test_CRUDmethods.DELETERequest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeleteId(, 405)">
+                  </a> <!-- DeleteId(, 405) -->
+                  <span class="method-name">DeleteId</span>
+                  <span class="parameters">(, 405)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeleteId(6, 500)">
+                  </a> <!-- DeleteId(6, 500) -->
+                  <span class="method-name">DeleteId</span>
+                  <span class="parameters">(6, 500)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeleteId(6898, 200)">
+                  </a> <!-- DeleteId(6898, 200) -->
+                  <span class="method-name">DeleteId</span>
+                  <span class="parameters">(6898, 200)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-lmsApi-class-passed -->
+          <div class="suite-lmsApi-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">lms_API_Test_CRUDmethods.POSTRequest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createProgram(, SDET26, Automation testing, true, 200)">
+                  </a> <!-- createProgram(, SDET26, Automation testing, true, 200) -->
+                  <span class="method-name">createProgram</span>
+                  <span class="parameters">(, SDET26, Automation testing, true, 200)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createProgram(NULL, DS, data science, false, 400)">
+                  </a> <!-- createProgram(NULL, DS, data science, false, 400) -->
+                  <span class="method-name">createProgram</span>
+                  <span class="parameters">(NULL, DS, data science, false, 400)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createProgram(0, DS, data science, false, 200)">
+                  </a> <!-- createProgram(0, DS, data science, false, 200) -->
+                  <span class="method-name">createProgram</span>
+                  <span class="parameters">(0, DS, data science, false, 200)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createProgram(7879798989080870.00, SDET, Test, true, 400)">
+                  </a> <!-- createProgram(7879798989080870.00, SDET, Test, true, 400) -->
+                  <span class="method-name">createProgram</span>
+                  <span class="parameters">(7879798989080870.00, SDET, Test, true, 400)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-lmsApi-class-passed -->
+          <div class="suite-lmsApi-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">lms_API_Test_CRUDmethods.GETRequest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_allPrograms">
+                  </a> <!-- Get_allPrograms -->
+                  <span class="method-name">Get_allPrograms</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_programid(12AB, 400)">
+                  </a> <!-- Get_programid(12AB, 400) -->
+                  <span class="method-name">Get_programid</span>
+                  <span class="parameters">(12AB, 400)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_programid(null, 400)">
+                  </a> <!-- Get_programid(null, 400) -->
+                  <span class="method-name">Get_programid</span>
+                  <span class="parameters">(null, 400)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_programid(5379, 200)">
+                  </a> <!-- Get_programid(5379, 200) -->
+                  <span class="method-name">Get_programid</span>
+                  <span class="parameters">(5379, 200)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_programid(2, 200)">
+                  </a> <!-- Get_programid(2, 200) -->
+                  <span class="method-name">Get_programid</span>
+                  <span class="parameters">(2, 200)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_programid(0, 200)">
+                  </a> <!-- Get_programid(0, 200) -->
+                  <span class="method-name">Get_programid</span>
+                  <span class="parameters">(0, 200)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-lmsApi-class-passed -->
+          <div class="suite-lmsApi-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">lms_API_Test_CRUDmethods.PUTRequest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateProgram(6211, SDET26, management, TRUE, 200)">
+                  </a> <!-- updateProgram(6211, SDET26, management, TRUE, 200) -->
+                  <span class="method-name">updateProgram</span>
+                  <span class="parameters">(6211, SDET26, management, TRUE, 200)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateProgram(5118, Scrum master, management, 123%, 400)">
+                  </a> <!-- updateProgram(5118, Scrum master, management, 123%, 400) -->
+                  <span class="method-name">updateProgram</span>
+                  <span class="parameters">(5118, Scrum master, management, 123%, 400)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateProgram(7ghh, java, basics, FALSE, 400)">
+                  </a> <!-- updateProgram(7ghh, java, basics, FALSE, 400) -->
+                  <span class="method-name">updateProgram</span>
+                  <span class="parameters">(7ghh, java, basics, FALSE, 400)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-lmsApi-class-passed -->
+        </div> <!-- panel lmsApi -->
+        <div panel-name="test-xml-lmsApi" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\shanm\OneDrive\Documents\Div Job\Numpy Ninja\Eclipse workspace\com.LMS_API_RestAssuredAutomation\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;lmsApi&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;CRUDmethods&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;lms_API_Test_CRUDmethods.PUTRequest&quot;/&gt;
+      &lt;class name=&quot;lms_API_Test_CRUDmethods.DELETERequest&quot;/&gt;
+      &lt;class name=&quot;lms_API_Test_CRUDmethods.GETRequest&quot;/&gt;
+      &lt;class name=&quot;lms_API_Test_CRUDmethods.POSTRequest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- CRUDmethods --&gt;
+&lt;/suite&gt; &lt;!-- lmsApi --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-lmsApi" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for lmsApi</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">CRUDmethods (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-lmsApi" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for lmsApi</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-lmsApi" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for lmsApi</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_lmsApi');
+function tableData_lmsApi() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(17);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'updateProgram')
+data.setCell(0, 2, 'lms_API_Test_CRUDmethods.PUTRequest')
+data.setCell(0, 3, 6620);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Get_allPrograms')
+data.setCell(1, 2, 'lms_API_Test_CRUDmethods.GETRequest')
+data.setCell(1, 3, 1413);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'DeleteId')
+data.setCell(2, 2, 'lms_API_Test_CRUDmethods.DELETERequest')
+data.setCell(2, 3, 1321);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'DeleteId')
+data.setCell(3, 2, 'lms_API_Test_CRUDmethods.DELETERequest')
+data.setCell(3, 3, 1151);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'DeleteId')
+data.setCell(4, 2, 'lms_API_Test_CRUDmethods.DELETERequest')
+data.setCell(4, 3, 1033);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'createProgram')
+data.setCell(5, 2, 'lms_API_Test_CRUDmethods.POSTRequest')
+data.setCell(5, 3, 695);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Get_programid')
+data.setCell(6, 2, 'lms_API_Test_CRUDmethods.GETRequest')
+data.setCell(6, 3, 608);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'updateProgram')
+data.setCell(7, 2, 'lms_API_Test_CRUDmethods.PUTRequest')
+data.setCell(7, 3, 597);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'createProgram')
+data.setCell(8, 2, 'lms_API_Test_CRUDmethods.POSTRequest')
+data.setCell(8, 3, 581);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'updateProgram')
+data.setCell(9, 2, 'lms_API_Test_CRUDmethods.PUTRequest')
+data.setCell(9, 3, 577);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'updateProgram')
+data.setCell(10, 2, 'lms_API_Test_CRUDmethods.PUTRequest')
+data.setCell(10, 3, 574);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Get_programid')
+data.setCell(11, 2, 'lms_API_Test_CRUDmethods.GETRequest')
+data.setCell(11, 3, 539);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Get_programid')
+data.setCell(12, 2, 'lms_API_Test_CRUDmethods.GETRequest')
+data.setCell(12, 3, 530);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'createProgram')
+data.setCell(13, 2, 'lms_API_Test_CRUDmethods.POSTRequest')
+data.setCell(13, 3, 527);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Get_programid')
+data.setCell(14, 2, 'lms_API_Test_CRUDmethods.GETRequest')
+data.setCell(14, 3, 514);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'createProgram')
+data.setCell(15, 2, 'lms_API_Test_CRUDmethods.POSTRequest')
+data.setCell(15, 3, 512);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'Get_programid')
+data.setCell(16, 2, 'lms_API_Test_CRUDmethods.GETRequest')
+data.setCell(16, 3, 499);
+window.suiteTableData['lmsApi']= { tableData: data, tableDiv: 'times-div-lmsApi'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 18 seconds</span>
+              <div id="times-div-lmsApi">
+              </div> <!-- times-div-lmsApi -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-lmsApi" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for lmsApi</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-lmsApi" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">3 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">lms_API_Test_CRUDmethods.POSTRequest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">loginSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">lms_API_Test_CRUDmethods.GETRequest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">loginSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">lms_API_Test_CRUDmethods.DELETERequest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">loginSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-lmsApi" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">lms_API_Test_CRUDmethods.PUTRequest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">loginSetup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">updateProgram(6211, SDET26, management, TRUE, 200)</span>
+                <span class="method-start">7290 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">updateProgram(5, SDET, api, TRUE, 400)</span>
+                <span class="method-start">13915 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateProgram(7ghh, java, basics, FALSE, 400)</span>
+                <span class="method-start">14516 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateProgram(5118, Scrum master, management, 123%, 400)</span>
+                <span class="method-start">15092 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">lms_API_Test_CRUDmethods.DELETERequest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">DeleteId(6898, 200)</span>
+                <span class="method-start">15733 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DeleteId(6, 500)</span>
+                <span class="method-start">16885 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DeleteId(, 405)</span>
+                <span class="method-start">17920 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">lms_API_Test_CRUDmethods.GETRequest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Get_allPrograms</span>
+                <span class="method-start">19242 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Get_programid(5379, 200)</span>
+                <span class="method-start">20728 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Get_programid(2, 200)</span>
+                <span class="method-start">21242 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Get_programid(null, 400)</span>
+                <span class="method-start">21742 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Get_programid(12AB, 400)</span>
+                <span class="method-start">22282 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Get_programid(0, 200)</span>
+                <span class="method-start">22891 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">lms_API_Test_CRUDmethods.POSTRequest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createProgram(, SDET26, Automation testing, true, 200)</span>
+                <span class="method-start">23477 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createProgram(0, DS, data science, false, 200)</span>
+                <span class="method-start">24005 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createProgram(7879798989080870.00, SDET, Test, true, 400)</span>
+                <span class="method-start">24701 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createProgram(NULL, DS, data science, false, 400)</span>
+                <span class="method-start">25283 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
