@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [JobsApi]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="CRUDmethods(failed)">
+    <classes>
+      <class name="jobs_API_Test_CRUDmethods.PUTRequest">
+        <methods>
+          <include name="JobsPUTreq" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- jobs_API_Test_CRUDmethods.PUTRequest -->
+      <class name="jobs_API_Test_CRUDmethods.POSTRequest">
+        <methods>
+          <include name="JobsPOSTreq" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- jobs_API_Test_CRUDmethods.POSTRequest -->
+      <class name="jobs_API_Test_CRUDmethods.DELETErequest">
+        <methods>
+          <include name="JobsDeletereq" invocation-numbers="2"/>
+        </methods>
+      </class> <!-- jobs_API_Test_CRUDmethods.DELETErequest -->
+    </classes>
+  </test> <!-- CRUDmethods(failed) -->
+</suite> <!-- Failed suite [JobsApi] -->
