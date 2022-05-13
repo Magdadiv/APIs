@@ -24,7 +24,7 @@ public class POSTRequest {
 	void JobsPOSTreq(String JobId, String Jobtitle,String Joblocation,String JobcompanyName ,String Jobtype,
 			String Jobposttime,String JobDescription,String statuscode) 
 	{
-		RestAssured.baseURI = "https://jobs123.herokuapp.com/Jobs";
+		RestAssured.baseURI = uri;
 		RequestSpecification httprequest= RestAssured.given();
 
 
