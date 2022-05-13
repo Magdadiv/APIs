@@ -19,7 +19,7 @@ public class GETRequest  {
 	@Test(priority =0)
 	public void getAllJobs() 
 	{
-		RestAssured.baseURI = "https://jobs123.herokuapp.com/Jobs";
+		RestAssured.baseURI = uri;
 		httprequest= RestAssured.given();
 		response = httprequest.request(Method.GET);
 		Assert.assertEquals(response.getStatusCode(),200);
