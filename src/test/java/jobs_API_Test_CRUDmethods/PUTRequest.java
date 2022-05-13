@@ -25,7 +25,7 @@ public class PUTRequest {
 			String Jobtyp,String statuscode)
 	{
 
-		RestAssured.baseURI = "https://jobs123.herokuapp.com/Jobs";
+		RestAssured.baseURI = uri;
 		httprequest = RestAssured.given();
 
 		JSONObject requestParams = new JSONObject();
