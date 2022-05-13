@@ -26,7 +26,7 @@ public class DELETErequest {
 
 	void JobsDeletereq(String JobID,String statuscode)
 	{
-		RestAssured.baseURI = "https://jobs123.herokuapp.com/Jobs";
+		RestAssured.baseURI = uri;
 		httprequest= RestAssured.given();
 
 		JSONObject requestParams = new JSONObject();
